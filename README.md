@@ -18,15 +18,15 @@ while文
     var i = 1;
     while (i <= 5) {
         console.log(i + "だよ。");
-        i += 1;
+        i++;
     }
     console.log();
 
     console.log("** ケース２ **");
-    var i = 5;
+    i = 5;
     while (i >= 1) {
         console.log(i + "だよ。");
-        i -= 1;
+        i--;
     }
 
 })();
